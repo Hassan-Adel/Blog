@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pc.blog">
+    package="com.example.pc.blog" >
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        >
+        android:label="@string/app_name" >
         <activity
             android:name=".Splash"
-            android:label="@string/app_name"
-            >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,8 +17,7 @@
         </activity>
         <activity
             android:name=".privatepublic"
-            android:label="@string/app_name"
-            >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,34 +26,38 @@
         </activity>
         <activity
             android:name=".tabs"
-
-            android:label="@string/title_activity_tabs"
-
-            >
-
+            android:label="@string/title_activity_tabs" >
         </activity>
         <activity
             android:name=".TabActivity1"
-            android:label="@string/app_name">
-
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.default" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".TabActivity2"
-            android:label="@string/app_name">
-
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.default" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".CustomDialog"
+            android:label="@string/title_activity_custom_dialog" >
+        </activity>
+        <activity
+            android:name=".AddBlog"
+            android:label="@string/title_activity_add_blog" >
+        </activity>
+        <activity
+            android:name=".AddAlert"
+            android:label="@string/title_activity_add_alert" >
+        </activity>
     </application>
 
 </manifest>

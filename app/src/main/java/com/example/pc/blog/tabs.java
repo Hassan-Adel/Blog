@@ -48,9 +48,14 @@ public class tabs extends TabActivity {
     }
 
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        CustomDialog start_dialog = new CustomDialog(this);
+        start_dialog.show();
+        return  true;
+    }
 
-
-   public void AddClicked(View view){
+    public void AddClicked(View view){
        Intent i = new Intent(tabs.this,Splash.class);
    }
 
